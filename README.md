@@ -10,7 +10,7 @@ DBREI (Defensive Back Reactive Execution Index)  quantifies DB reaction and exec
 
 The source code can be found in the src folder with the notebook **NFL_BDB_DBREI_Code.ipynb** uploaded in this folder. There are two required changes to ensure that the code is functional for outside users.
 
-1) Download the data for the NFL BDB 2026 Analytics (instructions will be found in the data section of the competition)
+1) Download the data for the NFL BDB 2026 Analytics (instructions will be found in the data section of the competition): https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/data
 2) Download the NFL_BDB_DBREI_Code notebook and navigate to the DATA FETCHING AND CLEANING section of the notebook
      - Here, change path_to_data to the path where the training data folder is stored
      - Also, change the path for the line sup_df_final = pd.read_csv("ENTER YOUR PATH TO SUPPLEMENTARY DATA")
